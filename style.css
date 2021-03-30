@@ -47,7 +47,7 @@ li > * {
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.add__row-wrapper {
     display: flex;
     margin-top: 15px;
 }
@@ -64,7 +64,7 @@ li > * {
     color: #3a3A3a;
 }
 /* Heading */
-.main__task_title { 
+.title { 
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -91,7 +91,7 @@ li > * {
 
 /* New Task */
 
-#main__new-task {
+#add__new-task {
     width: 318px;
 }
 .button_add:hover {
@@ -142,11 +142,11 @@ li > * {
     display: none;
 } */
 
-.edit-mode .text-input {
+.todo__edit-mode .text-input {
     display: inline-block;
     width: 330px;
 }
 
-.edit-mode .item_label {
+.todo__edit-mode .item_label {
     display: none;
 }

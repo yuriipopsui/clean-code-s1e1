@@ -17,17 +17,17 @@
     </a>
   </header>
   <main class="main">
-    <section class="add" id="main__add-task">
-      <h3 class="main__task_title">Add Item</h3>
-      <div class="task-row-wrapper">
-        <input class="task style-input" id="main__new-task" type="text">
+    <section class="add" id="add__task">
+      <h3 class="title">Add Item</h3>
+      <div class="add__row-wrapper">
+        <input class="task style-input" id="add__new-task" type="text">
         <button class="button button_add">Add</button>
       </div>
     </section>
     <section class="todo">
-      <h3 class="main__task_title">Todo</h3>
-      <ul class="main__task_list" id="incomplete-tasks">
-        <li class="main__task_item list_item">
+      <h3 class="title">Todo</h3>
+      <ul class="todo__list" id="incomplete-tasks">
+        <li class="todo__list_item list_item">
           <input class="item_checkbox" type="checkbox">
           <label class="task item_label">Pay Bills</label>
           <input class="style-input text-input" type="text">
@@ -36,7 +36,7 @@
             <img class="button-img" src="./remove.svg" alt="delete button image">
           </button>
         </li>
-        <li class="edit-mode list_item">
+        <li class="todo__edit-mode list_item">
           <input class="item_checkbox" type="checkbox">
           <label class="task item_label">Go Shopping</label>
           <input class="task style-input text-input" type="text" value="Go Shopping">
@@ -47,10 +47,10 @@
         </li>
       </ul>
     </section>
-    <section class="completed">
-      <h3 class="main__task_title">Completed</h3>
+    <section class="complete">
+      <h3 class="title">Completed</h3>
       <ul class="completed" id="completed-tasks">
-        <li class="list_item">
+        <li class="completed__list_item list_item">
           <input class="item_checkbox" type="checkbox" checked>
           <label class="task item_label">See the Doctor</label>
           <input class="task style-input text-input" type="text" >
