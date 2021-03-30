@@ -64,8 +64,7 @@ li > * {
     color: #3a3A3a;
 }
 /* Heading */
-.main__task_title
-/* label[for='main__new-task'] */{ 
+.main__task_title { 
     color: #333;
     font-weight: 700;
     font-size: 15px;
