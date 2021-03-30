@@ -130,11 +130,9 @@ li > * {
 }
 .button-img:hover {
     transform: rotateZ(0);
-    color:#CF2323;
 }
-
 /* Completed */
-#completed-tasks label {
+#completed-tasks .item_label {
     text-decoration: line-through;
     color: #888;
 }
@@ -144,11 +142,11 @@ li > * {
     display: none;
 } */
 
-.edit-mode input[type=text] {
+.edit-mode .text-input {
     display: inline-block;
     width: 330px;
 }
 
-.edit-mode label {
+.edit-mode .item_label {
     display: none;
 }
