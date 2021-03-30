@@ -18,10 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+  .header { 
+      text-align: center;
+  }
 }
-}
-.main {
+.centered-main-page-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -58,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='main__new-task'] {
+label[for='new-task'] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -118,7 +119,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 li > button.delete:hover {
